@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire</title>
+    
+</head>
+<body>
+<form action="/api/articles/delete" method="post">
+  <fieldset>
+<h1>Formulaire de création de commentaire</h1>
+    <div>
+        <label for="title">Titre de l'article</label>
+        <input type="text" id="title" name="title">
+    </div>
+    <div>
+        <label for="author">Nom de l'auteur:</label>
+        <input type="text" id="author" name="author">
+    </div>
+    <textarea name="content" rows="6" cols="40">Redigez votre article.</textarea>
+    <input type="submit" value="Validé le formulaire">
+    </fieldset>
+</form>
+</body>
+</html>

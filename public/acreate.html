@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire</title>
+    
+</head>
+<body>
+<form action="/api/article/create" method="post">
+  <fieldset>
+<h1>Formulaire de création d'article</h1>
+    <div>
+        <label for="title">Titre de l'article</label>
+        <input type="text" id="title" name="articles_title">
+    </div>
+    <div>
+        <label for="author">Nom de l'auteur:</label>
+        <input type="text" id="author" name="articles_author_id">
+    </div>
+    <div>
+        <label for="create">Crée le :</label>
+        <input type="date" id="create" name="articles_create_at">
+    </div>
+    <textarea name="articles_content" rows="6" cols="40">Redigez votre article.</textarea>
+    <input type="submit" value="Validé le formulaire">
+    </fieldset>
+</form>
+</body>
+</html>
